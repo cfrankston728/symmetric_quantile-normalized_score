@@ -37,6 +37,15 @@ There are methods to trivially satisfy this property, such as [password attackin
 - Balances score and rank-based voting methods' advantages.
 - Enhances fairness in score distribution among candidates.
 
+## License
+
+This project, "Symmetric Quantile Normalized Score," is licensed under the Creative Commons Attribution 4.0 International License - CC BY 4.0. This license allows others to share, copy, distribute, transmit, and adapt the work, even commercially, as long as proper attribution is given to the original author, Connor Frankston.
+
+For the full license text, please see the [LICENSE.md](LICENSE.md) file in this repository or visit the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/legalcode) page.
+
+![Creative Commons License](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1) ![Attribution License](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)
+
+
 ## Acknowledgments
 
 A special thanks is extended to Jack Waugh and Toby Periera for their insightful intellectual engagement and concerns pertaining to the development of this system.
