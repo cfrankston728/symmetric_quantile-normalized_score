@@ -1,6 +1,10 @@
 # symmetric_quantile-normalized_score
 ``symmetric_quantile-normalized_score`` is an implementation of symmetric quantile-normalized score voting (SQNV).
 
+<figure>
+    <img src="symmetric_quantile_normalization.png" alt="" title="Visual_Plot" width="450"/>
+</figure>
+
 ## Introduction
 Invented by Connor Frankston on March 16, 2024, with significant contributions from the community at the [Voting Theory Forum](https://www.votingtheory.org/forum/), SQNV offers a novel approach to score voting by incorporating a symmetric quantile normalization process. This method aims to mitigate the impacts of strategic voting tactics like bullet voting and min-maxing. It's important to note that while SQNV brings several advantages to score voting systems, it is not Condorcet compliant for contests involving more than three candidates.
 
