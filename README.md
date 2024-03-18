@@ -1,4 +1,4 @@
-Implementation of symmetric quantile-normalized score voting.
+Implementation of symmetric quantile-normalized score voting (SQNV)
 
 Invented by Connor Frankston on March 16, 2024, with significant contributions from the community at https://www.votingtheory.org/forum/
 
