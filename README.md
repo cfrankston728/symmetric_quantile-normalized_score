@@ -20,6 +20,17 @@ Symmetric quantile-normalized score voting (SQNV) is a voting system that modifi
 
 This approach not only counters strategic voting behaviors like bullet voting and min-maxing but also respects the subtleties of voter preferences by preserving the integrity of weakly-ranked candidates' scores.
 
+## Motivation
+SQNV is motivated by the goal to enable reasonable normalization of score ballots to enhance comparability across voters without (1) resorting to strict rankings or (2) sacrificing the desirable properties of score systems, such as participation and consistency. SQNV accomplishes this by a adjusting quantile normalized score values into a forced symmetry that preserves the following "cancellation" property:
+
+* **Cancellation**: If an election would arrive to a definite resolution in the absence of ballots from voters A and B, then for any ballot voter A casts that alters that resolution, there must be some ballot that voter B can cast to recover the original resolution.
+
+There are methods to trivially satisfy this property, but not without infringements on a reasonable balance between privacy and transparency. In the case of SQNV, the cancellation property is maintained by preserving the richer Abelian group, "point-summing" structure of traditional score ballots, which offers the advantage of the reinforcement criterion and therefore also the participation criterion. This places SQNV among score and approval voting.
+
+<figure>
+    <img src="map_of_voting_systems.png" alt="" title="Map_of_Voting_Systems" width="450"/>
+</figure>
+
 ## Features
 
 - Mitigates effects of strategic voting.
