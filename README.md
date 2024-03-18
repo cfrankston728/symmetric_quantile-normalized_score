@@ -25,7 +25,7 @@ SQNV is motivated by the goal to enable reasonable normalization of score ballot
 
 * **Cancellation**: If an election would arrive to a definite resolution in the absence of ballots from voters A and B, then for any ballot voter A casts that alters that resolution, there must be some ballot that voter B can cast to recover the original resolution.
 
-There are methods to trivially satisfy this property, such as [password attacking](https://www.votingtheory.org/forum/post/3256), but not without infringements on a reasonable balance between privacy and transparency. In the case of SQNV, the cancellation property is maintained by preserving the richer Abelian group, "point-summing" structure of traditional score ballots, which offers the advantage of the reinforcement criterion and therefore also the participation criterion. This places SQNV among score and approval voting.
+There are methods to trivially satisfy this property, such as [password attacking](https://www.votingtheory.org/forum/post/3256), but not without infringements on a reasonable balance between privacy and transparency. In the case of SQNV, the cancellation property is maintained by preserving the richer Abelian group, "point-summing" structure of traditional score ballots, which offers the advantage of the reinforcement criterion and therefore also the participation criterion. This places SQNV among score and approval voting in the "map" of voting systems.
 
 <figure>
     <img src="map_of_voting_systems.png" alt="" title="Map_of_Voting_Systems" width="450"/>
