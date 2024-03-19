@@ -18,7 +18,7 @@ Symmetric quantile-normalized score voting (SQNV) is a voting system that modifi
 3. **Symmetric Adjustment**: The quantile scores are then adjusted symmetrically, ensuring that the influence of high and low scores is balanced across the voting population.
 4. **Tallying**: The adjusted scores are tallied for each candidate, determining the winner in a way that respects the nuanced preferences of the entire electorate.
 
-This approach not only counters strategic voting behaviors like bullet voting and min-maxing but also respects the subtleties of voter preferences by preserving the integrity of weakly-ranked candidates' scores.
+This approach counters strategic voting behaviors like bullet voting and min-maxing while respecting the subtleties of normative voter preferences.
 
 ## Motivation
 SQNV is motivated by the goal to enable reasonable normalization of score ballots to enhance comparability across voters without (1) resorting to strict rankings or (2) sacrificing the desirable properties of score systems, such as participation and consistency. SQNV accomplishes this by a adjusting quantile normalized score values into a forced symmetry that preserves the following "cancellation" property:
