@@ -14,7 +14,7 @@ Symmetric quantile-normalized score voting (SQNV) is a voting system that modifi
 ### Process Overview
 
 1. **Normalization**: Each voter's scores are normalized to a 0-1 scale, maintaining the relative preferences but standardizing the score ranges across all ballots.
-2. **Quantile Ranking**: Scores on each ballot are ranked, and a quantile calculation is performed to determine the mean score for each rank across all voters.
+2. **Quantile Ranking**: Scores on each ballot are ranked, and a quantile calculation is performed to determine the central score (ex: mean or median) for each rank across all voters.
 3. **Symmetric Adjustment**: The quantile scores are then adjusted symmetrically, ensuring that the influence of high and low scores is balanced across the voting population.
 4. **Tallying**: The adjusted scores are tallied for each candidate, determining the winner in a way that respects the nuanced preferences of the entire electorate.
 
