@@ -6,7 +6,7 @@
 </figure>
 
 ## Introduction
-Invented on March 16, 2024 with significant contributions from the community at the [Voting Theory Forum](https://www.votingtheory.org/forum/), SQNV offers a novel approach to score voting by incorporating a symmetric quantile normalization process. This method aims to mitigate the impacts of strategic voting tactics like bullet voting and min-maxing.
+Invented on March 16, 2024 with significant contributions from the community at the [Voting Theory Forum](https://www.votingtheory.org/forum/), SQNV offers a novel approach to score voting by incorporating a symmetric quantile normalization process. This method aims to mitigate the impacts of [strategic voting tactics](https://en.wikipedia.org/wiki/Strategic_voting) like [bullet voting](https://en.wikipedia.org/wiki/Bullet_voting) and min-maxing.
 
 ## About SQNV
 Symmetric quantile-normalized score voting (SQNV) is a voting system that modifies traditional score voting to enhance fairness and reduce susceptibility to common voting tactics like bullet voting and min-maxing. At its core, SQNV employs a normalization technique that adjusts voters' scores for candidates, ensuring that each ballot contributes equally to the final outcome.
