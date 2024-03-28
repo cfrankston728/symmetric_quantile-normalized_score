@@ -40,8 +40,8 @@ Alternatively, one may by reasonable means restrict the range of valid scores to
 With the uniform range assumption met, and letting there be $m$ candidates and $n$ voters, symmetric quantile normalization of score ballots proceeds as follows:
 
 The scores in each individual ballot are ranked in ascending order, and the values that would be associated to each rank as in an ordinary quantile normalization are computed as $q_0, q_1,\cdots, q_m$. In particular, $q_j$ is a central measure of all the scores in the $j$-th rank across the ballots of all voters, such as the mean or median. Explicitly, if we let $\sigma_j(v_i)$ denote the $j$-th ranked score on the ballot of voter $v_i$, then we define $$q_j:=\underset{i}{\text{center}}\left(\sigma_j(v_i)\right).$$
-The values $q^*_j$ are defined from $q_j$ by the simple averaging formula $$q^*_j :=\frac{1}{2}\left(q_j+(1-q_{m-j})\right).$$
-These new values $q^*_j$ are designed to satisfy a symmetrical condition, namely that $$q^*_{m-j}=1-q^*_j.$$
+The values $q^\ast_j$ are defined from $q_j$ by the simple averaging formula $$q^\ast_j :=\frac{1}{2}\left(q_j+(1-q_{m-j})\right).$$
+These new values $q^\ast_j$ are designed to satisfy a symmetrical condition, namely that $$q^\ast_{m-j}=1-q^\ast_j.$$
 With this symmetrical condition satisfied, the system preserves the desirable ``cancellation" (Abelian group) property that, absent information imbalances, formally guarantees equal power to each voter. Note that the ordinary quantile normalized values $q_j$ are certainly not guaranteed to satisfy this condition.
 
 Next, a modified quantile normalization is applied across all ballots, where rather than using the ordinary quantile normalized values $q_j$, the corresponding symmetrical values $q_j^*$ are used in their place.
