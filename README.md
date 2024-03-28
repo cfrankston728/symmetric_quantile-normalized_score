@@ -19,7 +19,7 @@ Symmetric quantile-normalized score voting (SQNV) is a voting system that modifi
 4. **Tallying**: The adjusted scores are tallied for each candidate, determining the winner in a way that respects the nuanced preferences of the entire electorate.
 
 ## Motivation
-SQNV is motivated by the goal of enabling reasonable normalization of score ballots to enhance comparability across voters without (1) resorting to strict rankings or (2) sacrificing certain desirable properties of score systems, such as [participation](https://en.wikipedia.org/wiki/Participation_criterion) and [consistency](https://en.wikipedia.org/wiki/Reinforcement_criterion). SQNV accomplishes this by adjusting quantile normalized score values into a forced symmetry that preserves the following "cancellation" property:
+SQNV is motivated by the goal of enabling reasonable normalization of score ballots to enhance comparability across voters without (1) resorting to strict rankings or (2) sacrificing certain desirable properties of score systems, such as [participation](https://en.wikipedia.org/wiki/Participation_criterion), [consistency](https://en.wikipedia.org/wiki/Reinforcement_criterion), and [independence of clones](https://en.wikipedia.org/wiki/Independence_of_clones_criterion). SQNV accomplishes this by adjusting quantile normalized score values into a forced symmetry that preserves the following "cancellation" property:
 
 * **Cancellation**: *If an election would arrive at some result in the absence of ballots from voters* $A$ *and* $B$, *then for any ballot to be cast by voter* $A$ *that would alter that result, there must be some ballot that voter* $B$ *can cast in combination to recover the original result.*
 
