@@ -37,9 +37,9 @@ In the case of SQNV, the cancellation property is achieved non-trivially by pres
 
 ## Formal Definition
 
-To begin, SQNV assumes without loss of generality that each voter's ballot has real-valued, independent scores with an attained minimum score of $0$ and an attained maximum of $1$. The method of achieving this assumption may vary---for example, an affine-projection of the ballots to the range of $[0,1]$ may be sensible in certain contexts.
+To begin, SQNV assumes without loss of generality that each voter's ballot has real-valued, independent scores with an attained minimum score of $0$ and an attained maximum of $1$[^2]. 
 
-Alternatively, one may by reasonable means restrict the range of valid scores to the range $[0,1]$, and then include two additional pseudo-scores of $0$ and $1$ respectively to each ballot to be automatically included in the normalization process. In the context of political elections, this alternative suggestion to enforce a uniform range may be more ethically sound, as it places the onus of utilizing the full strategic power of the ballot entirely on the voter. It also removes the would-be inconvenience of separately handling ballots with zero variation.
+[^2]:The method of achieving this assumption may vary---for example, an affine-projection of the ballots to the range of $[0,1]$ may be sensible in certain contexts.Alternatively, one may by reasonable means restrict the range of valid scores to the range $[0,1]$, and then include two additional pseudo-scores of $0$ and $1$ respectively to each ballot to be automatically included in the normalization process. In the context of political elections, this alternative suggestion to enforce a uniform range may be more ethically sound, as it places the onus of utilizing the full strategic power of the ballot entirely on the voter. It also removes the would-be inconvenience of separately handling ballots with zero variation.
 
 With the uniform range assumption met, and letting there be $m$ candidates and $n$ voters, symmetric quantile normalization of score ballots proceeds as follows:
 
